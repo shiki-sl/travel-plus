@@ -1,0 +1,9 @@
+#tomcat\u7AEF\u53E3
+server:
+  port: 16980
+spring:
+  profiles:
+    include: dao,service
+
+traverWeb:
+  ip: "http://www.travel.com:80"
